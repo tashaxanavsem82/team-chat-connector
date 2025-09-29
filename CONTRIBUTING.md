@@ -9,7 +9,7 @@ Thank you for considering contributing to the Team Chat Connector project! Here 
    git checkout -b my-feature-branch
    ```
 3. **Make Your Changes:** Write your code! Add tests if necessary.
-4. **Commit Your Changes:** Commit your changes with a clear message.
+4. **Commit Your Changes:** Commit your changes with a clear and descriptive message explaining what your changes do.
    ```bash
    git commit -m 'Add some feature'
    ```
