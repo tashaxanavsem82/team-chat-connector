@@ -1,4 +1,4 @@
-document.getElementById('send-button').addEventListener('click', function() {
+document.getElementById('send-button').addEventListener('click', () => {
     const messageInput = document.getElementById('message-input');
     const messageList = document.getElementById('message-list');
 
