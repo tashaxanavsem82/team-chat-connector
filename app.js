@@ -7,8 +7,8 @@ document.getElementById('send-button').addEventListener('click', () => {
     const newMessage = document.createElement('div');
     newMessage.textContent = messageInput.value;
 
-    // Check for duplicate messages in the message list
-    const messageExists = [...messageList.children].some(msg => msg.textContent === newMessage.textContent);
+    // Check for duplicate messages in the message list, normalizing whitespace
+    const messageExists = [...messageList.children].some(msg => msg.textContent.trim() === newMessage.textContent.trim());
     if (messageExists) {
         messageInput.value = '';
         return;
